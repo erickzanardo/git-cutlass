@@ -31,5 +31,9 @@ describe("ParseStatus", () => {
 
     expect(parsed.toCommit.added.length).to.equal(1);
     expect(parsed.toCommit.added[0]).to.equal("f.txt");
+
+    expect(parsed.hasToCommit()).to.be.true;
+    expect(parsed.hasNotStaged()).to.be.true;
+    expect(parsed.hasUntracked()).to.be.true;
   });
 });
