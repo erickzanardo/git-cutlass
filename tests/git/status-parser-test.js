@@ -16,25 +16,25 @@ describe("ParseStatus", () => {
 
   it("parses correctly the 'git status --porcelain'", () => {
     expect(parsed.modified.length).to.equal(1);
-    expect(parsed.modified[0]).to.equal("a.txt");
+    expect(parsed.modified[0].file).to.equal("a.txt");
 
     expect(parsed.deleted.length).to.equal(1);
-    expect(parsed.deleted[0]).to.equal("b.txt");
+    expect(parsed.deleted[0].file).to.equal("b.txt");
 
     expect(parsed.untracked.length).to.equal(1);
-    expect(parsed.untracked[0]).to.equal("c.txt");
+    expect(parsed.untracked[0].file).to.equal("c.txt");
 
     expect(parsed.toCommit.modified.length).to.equal(1);
-    expect(parsed.toCommit.modified[0]).to.equal("d.txt");
+    expect(parsed.toCommit.modified[0].file).to.equal("d.txt");
 
     expect(parsed.toCommit.deleted.length).to.equal(1);
-    expect(parsed.toCommit.deleted[0]).to.equal("e.txt");
+    expect(parsed.toCommit.deleted[0].file).to.equal("e.txt");
 
     expect(parsed.toCommit.added.length).to.equal(1);
-    expect(parsed.toCommit.added[0]).to.equal("f.txt");
+    expect(parsed.toCommit.added[0].file).to.equal("f.txt");
 
     expect(parsed.toCommit.renamed.length).to.equal(1);
-    expect(parsed.toCommit.renamed[0]).to.equal("g.txt");
+    expect(parsed.toCommit.renamed[0].file).to.equal("g.txt");
 
     expect(parsed.hasToCommit()).to.be.true;
     expect(parsed.hasNotStaged()).to.be.true;
