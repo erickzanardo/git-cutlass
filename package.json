@@ -9,6 +9,7 @@
   "author": "Erick Zanardo",
   "license": "MIT",
   "dependencies": {
+    "blessed": "git@github.com:erickzanardo/blessed.git#071714d44fd0aa16093744438c59877ba2dc6e57",
     "git-shizzle": "0.0.3"
   },
   "devDependencies": {

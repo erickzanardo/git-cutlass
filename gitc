@@ -1,5 +1,3 @@
 #!/usr/bin/env node
-
-var Git = require('git-shizzle');
-
-var status = Git().status("--porcelain");
+var gitCutlass = require("./lib/app");
+gitCutlass.run();
