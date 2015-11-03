@@ -9,7 +9,8 @@ describe("ParseStatus", () => {
      status += "?? c.txt\n";
      status += "M  d.txt\n";
      status += "D  e.txt\n";
-     status += "A  f.txt";
+     status += "A  f.txt\n";
+     status += "R  g.txt";
 
   var parsed = statusParser.parse(status);
 
@@ -31,6 +32,9 @@ describe("ParseStatus", () => {
 
     expect(parsed.toCommit.added.length).to.equal(1);
     expect(parsed.toCommit.added[0]).to.equal("f.txt");
+
+    expect(parsed.toCommit.renamed.length).to.equal(1);
+    expect(parsed.toCommit.renamed[0]).to.equal("g.txt");
 
     expect(parsed.hasToCommit()).to.be.true;
     expect(parsed.hasNotStaged()).to.be.true;
