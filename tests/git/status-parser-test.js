@@ -1,6 +1,6 @@
 var chai = require("chai");
 var expect = chai.expect;
-var statusParser = require("../lib/status-parser");
+var statusParser = require("../../lib/git/status-parser");
 
 describe("ParseStatus", () => {
 
