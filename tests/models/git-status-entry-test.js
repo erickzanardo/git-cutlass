@@ -58,5 +58,9 @@ describe("GitStatusEntry", () => {
       var gitStatusEntry = new GitStatusEntry("??", "/bar/bla.txt");
       it("returns red", () => expect(gitStatusEntry.color()).to.equals("red"));
     });
+    context("when it's a both modified new file", () => {
+      var gitStatusEntry = new GitStatusEntry("UU", "/bar/bla.txt");
+      it("returns red", () => expect(gitStatusEntry.color()).to.equals("red"));
+    });
   });
 });
