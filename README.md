@@ -13,3 +13,6 @@ Git Cutlass is a simple curses-like tool to work with git (Work in progress)
 ```
 npm install git-cutlass -g
 ```
+
+# Screenshot
+![Screenshot](http://erickzanardo.github.io/git-cutlass/gitcutlass.png)
