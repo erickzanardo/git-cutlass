@@ -11,5 +11,5 @@ Git Cutlass is a simple curses-like tool to work with git (Work in progress)
 # Install
 
 ```
-npm install gi-cutlass
+npm install gi-cutlass -g
 ```
