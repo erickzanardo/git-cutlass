@@ -1,3 +1,0 @@
-#!/usr/bin/env node
-var gitCutlass = require("./lib/app");
-gitCutlass.run();
