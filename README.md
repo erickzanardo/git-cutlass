@@ -20,5 +20,9 @@ In a git repository folder
 gitc
 ```
 
+# Node version
+
+Git Cutlass requires node `v4.1.0` or more to run.
+
 # Screenshot
 ![Screenshot](http://erickzanardo.github.io/git-cutlass/gitcutlass.png)
