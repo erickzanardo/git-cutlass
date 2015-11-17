@@ -26,3 +26,9 @@ Git Cutlass requires node `v4.1.0` or more to run.
 
 # Screenshot
 ![Screenshot](http://erickzanardo.github.io/git-cutlass/gitcutlass.png)
+
+# Changelog
+
+### 1.0.2
+
+- Fixed bug when executing git cutlass somewhere else than the root repository
