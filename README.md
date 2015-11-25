@@ -32,3 +32,7 @@ Git Cutlass requires node `v4.1.0` or more to run.
 ### 1.0.2
 
 - Fixed bug when executing git cutlass somewhere else than the root repository
+
+### 1.0.3
+
+- Adding feature to view content of new files
