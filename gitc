@@ -1,3 +1,12 @@
 #!/usr/bin/env node
-var gitCutlass = require("./lib/app");
-gitCutlass.run();
+
+var fs = require("fs");
+
+try {
+  var stats = fs.statSync(".git");
+  var gitCutlass = require("./lib/app");
+  gitCutlass.run();
+} catch(e) {
+  console.error("This is not a git repository folder!");
+  process.exit(1);
+}
