@@ -14,7 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "blessed": "git@github.com:erickzanardo/blessed.git#071714d44fd0aa16093744438c59877ba2dc6e57",
-    "git-shizzle": "0.0.3"
+    "git-shizzle": "0.0.3",
+    "pty.js": "^0.3.0",
+    "term.js": "0.0.7"
   },
   "devDependencies": {
     "chai": "^3.4.0",
