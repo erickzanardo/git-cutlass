@@ -36,3 +36,4 @@ Git Cutlass requires node `v4.1.0` or more to run.
 ### 1.0.3
 
 - Adding feature to view content of new files
+- Deletion of new file
