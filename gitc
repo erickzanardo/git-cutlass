@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
-var fs = require("fs");
 var path = require("path");
+var cp = require("child_process");
 
 try {
-  fs.statSync(path.join(process.cwd(), ".git"));
+  cp.execSync("git status").toString();
 } catch(e) {
-  console.error("This is not a git repository folder!");
   process.exit(1);
 }
 
