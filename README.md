@@ -29,11 +29,18 @@ Git Cutlass requires node `v4.1.0` or more to run.
 
 # Changelog
 
-### 1.0.2
+### 1.0.4
 
-- Fixed bug when executing git cutlass somewhere else than the root repository
+- Adding feature to edit files inside git cutlass using vim
+- History window
+- Bugfixes
 
 ### 1.0.3
 
 - Adding feature to view content of new files
 - Deletion of new file
+
+### 1.0.2
+
+- Fixed bug when executing git cutlass somewhere else than the root repository
+
