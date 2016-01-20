@@ -32,7 +32,7 @@ Git Cutlass requires node `v4.1.0` or more to run.
 ### 1.0.4
 
 - Adding feature to edit files inside git cutlass using vim
-- History window
+- New screen to see local branch history 
 - Bugfixes
 
 ### 1.0.3
