@@ -32,6 +32,7 @@ Git Cutlass requires node `v4.1.0` or more to run.
 ### 1.0.5
 
 - Editiong screen now uses the $EDITOR environment variable to edit files, when not the variable is not present, vim is assumed as default
+- Bugfix: Application wouldn't open when the repository had no branches yet, this happend when trying to open gitc with an empty repository.
 
 ### 1.0.4
 
