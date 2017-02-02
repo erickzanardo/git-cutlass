@@ -22,12 +22,16 @@ gitc
 
 # Node version
 
-Git Cutlass requires node >= `v4.1.0` and <= `v5.11.1` to run.
+Git Cutlass requires node >= `v6`
 
 # Screenshot
 ![Screenshot](http://erickzanardo.github.io/git-cutlass/gitcutlass.png)
 
 # Changelog
+
+### 1.0.6
+
+- Fixing blessed dependency
 
 ### 1.0.5
 

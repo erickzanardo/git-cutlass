@@ -1,11 +1,11 @@
 {
   "name": "git-cutlass",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erickzanardo/blessed.git"
+    "url": "https://github.com/erickzanardo/git-cutlass.git"
   },
   "bin": {
     "gitc": "./gitc"
@@ -13,7 +13,7 @@
   "author": "Erick Zanardo",
   "license": "MIT",
   "dependencies": {
-    "blessed": "git@github.com:erickzanardo/blessed.git#071714d44fd0aa16093744438c59877ba2dc6e57",
+    "blessed": "https://github.com/erickzanardo/blessed.git#071714d44fd0aa16093744438c59877ba2dc6e57",
     "git-shizzle": "0.0.3",
     "pty.js": "^0.3.0",
     "term.js": "0.0.7"
