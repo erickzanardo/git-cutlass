@@ -29,6 +29,10 @@ Git Cutlass requires node >= `v6`
 
 # Changelog
 
+### 1.0.7
+
+- Fixing node version and adding packge-lock.json
+
 ### 1.0.6
 
 - Fixing blessed dependency
